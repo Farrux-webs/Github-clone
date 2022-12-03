@@ -1,0 +1,86 @@
+.overviewWrapper{
+    margin-left: 20px;
+    width: 70%;
+
+    .reposHeadingWrapper{
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        .customize{
+            color: rgba(218, 218, 218, 0.747);
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .reposHeading{
+            color: #fff;
+            font-size: 22px;
+        }
+    }
+    .popreposList{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        list-style-type: none;
+        gap: 15px;
+        padding: 0;
+
+        .popreposItem{
+            padding: 16px;
+            background-color: #0d1117;
+            border-color: #30363d;
+            border-radius: 6px;
+            border: 1px solid;
+
+            .popreposItemTop{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-bottom: 18px;
+                a{
+                    color: rgb(0, 132, 255);
+                    font-size: 20px;
+                    text-decoration: none;
+                    &:hover {
+                        cursor: pointer;
+                            text-decoration: underline;
+                        }
+                }
+                span{
+                    padding: 0 7px;
+                    border: 1px solid #30363d;
+                    color: #8b949e;
+                    border-radius: 20px;
+                }
+            }
+            .popreposItembottom{
+                width: 28%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                .lang{
+                    color: #8b949e;
+                    cursor: pointer;
+
+                   
+                }
+
+                .stars{
+                    cursor: pointer;
+                    color: #8b949e;
+                    .svg{
+                        fill: #8b949e;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}

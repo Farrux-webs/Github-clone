@@ -1,0 +1,40 @@
+.FooterWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 50px;
+    border-top: 1px solid #8b949e5b;
+
+    .footerLogo{
+        font-size: 30px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .FooterText{
+        color: #8b949e;
+        font-size: 13px;
+        margin-right: 80px;
+    }
+
+    .FooterList{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        .FooterItem{
+
+            .FooterLink{
+                text-decoration: none;
+                color: rgb(0, 166, 255);
+                font-size: 13px;
+    
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+}

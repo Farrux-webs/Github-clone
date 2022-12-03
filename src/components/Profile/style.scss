@@ -1,0 +1,71 @@
+.Profile {
+    width: 30%;
+    z-index: 10;
+    .Avatarka {
+        border-radius: 50%;
+    }
+
+    .aboutProfile {
+        display: flex;
+        flex-direction: column;
+        .userName {
+            color: rgb(200, 207, 215);
+            font-size: 35px;
+            margin: 0;
+        }
+
+        .Login {
+            color: rgb(98, 99, 100);
+            font-size: 25px;
+            margin: 0;
+            margin-bottom: 24px;
+        }
+        .edit{
+            width: 100%;
+            background-color: #242a31;
+            color: #fff;
+            transition: all 0.3s;
+
+            &:hover{
+                outline: 1px solid #fff;
+            }
+        }
+    }
+    .Follows{
+        margin-top: 16px;
+        margin-bottom: 24px;
+
+        .Followers , .Following{
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            margin-right: 10px;
+            strong{
+                margin: 3px;
+            }
+
+            &:hover{
+                color: rgb(0, 119, 255)
+            }
+        }
+    }
+    .Personaldata{
+        .Company, .Location, .blog{
+            text-decoration: none;
+            font-size: 17px;
+            color: #fff;
+
+            span{
+                margin-right: 5px;
+            }
+        }
+        .blog{
+            margin-right: 5px;
+
+            &:hover{
+                color: rgb(0, 119, 255);
+                text-decoration: underline;
+            }
+        }
+    }
+}
