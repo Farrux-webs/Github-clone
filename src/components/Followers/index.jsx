@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 function Index() {
   const [followers, setFollowers] = useState([]);
 
-  const Base_Url = "https://api.github.com/users/NurullohUbaydullayev";
+  const Base_Url = "https://api.github.com/users/Farrux-webs";
 
 useEffect(()=>{
     async function FetchData() {

@@ -57,9 +57,19 @@
 
             .SiteMenuItemText {
                 text-decoration: none;
-                font-size: 15px;
+                font-size: 13px;
                 color: #fff;
                 margin-left: 8px;
+
+                .reposlength{
+                    padding: 0 6px;
+                    border-radius: 2em;
+                    background-color: rgba(110, 118, 129, 0.4);
+                    margin-left: 5px;
+                    font-weight: 500;
+                    color: #c9d1d9;
+                    border: 1px solid rgba(0, 0, 0, 0);
+                }
 
 
             }

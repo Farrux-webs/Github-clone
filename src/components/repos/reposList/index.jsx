@@ -25,20 +25,20 @@ function Index() {
   }, []);
 
   return (
-    <div classList="reposBottom">
+    <div className="reposBottom">
       <ul className="reposList">
         {repos.map((e) => {
           return (
             <li className="reposItem">
               <div className="reposItemTop">
-                <div classList="reposItemTopleft">
+                <div className="reposItemTopleft">
                   <a href={e.svn_url} target="_blank">
                     {e.name}
                   </a>
                   <span>{e.visibility}</span>
                 </div>
                 <button className="btn starBtn">
-                  <div classList="starstatus">
+                  <div className="starstatus">
                     <svg
                       aria-hidden="true"
                       height="16"

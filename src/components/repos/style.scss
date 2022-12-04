@@ -26,6 +26,10 @@
             margin-left: 20px;
             font-weight: bold;
 
+            &:hover{
+            background-color: #4c8dee
+            }
+
             .svg{
                 fill: #ffffff;
                 margin-right: 5px;
@@ -37,6 +41,7 @@
             border: 1px solid #30363d;
             color: #8b949e;
             border-radius: 6px;
+            background-color: rgba(240, 246, 252, 0.1);
             
             
 
